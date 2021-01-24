@@ -36,6 +36,6 @@ def movie_details(movie_id):
 
 
 if __name__ == '__main__':
-    #app.run(debug=True)
-    print(tmdb_client.get_single_movie_cast(movie_id=539885))
+    app.run(debug=True)
+    #print(tmdb_client.get_single_movie_cast(movie_id=666))
 
